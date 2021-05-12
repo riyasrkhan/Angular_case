@@ -1,0 +1,79 @@
+ion-content {
+    --ion-background-color: #f1f5f9;
+}
+.reports-monthly {
+    background: #1BC5BD;
+    margin-right: 20px;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.reports-label {
+    padding: 1rem 0rem 1rem 2rem;
+}
+.exportbtn {
+    border: 1px solid #e2e8f0;
+    background-color: #3699FF;
+    color: #fff;
+    padding: 13px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    float: right;
+    font-size: 14px;
+}
+#uploadBtn {
+    text-align: right;
+    border: 1px solid #e2e8f0;
+    padding: 6px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.btn-file {
+    width: 100%;
+    text-align: right;
+    padding-right: 50px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.card-chart {
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06)!important;
+    --background: #fff !important;
+    padding: 30px;
+    margin: 0px 40px;
+}
+.ionitem {
+    --border-color: transparent !important;
+    float: right;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding-right: 21px;
+}
+.chart-style {
+    display: block;
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+}
+.headerclass{
+    background: #fff;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.title{
+    margin: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ionitem .item-native{
+    --ion-background-color: #fff !important;
+    background:#fff !important;
+} 
+@media only screen and (max-width: 767px) {
+    .card-chart {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+}

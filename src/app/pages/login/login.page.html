@@ -1,0 +1,25 @@
+
+<ion-content>
+  <div class="loginLogo"><img  src="assets/homedepot.png"/></div>
+  <p class="title">Sign In</p>
+  <ion-card  class="cardstyle">
+
+       <form [formGroup]="loginForm">  
+  <ion-input formControlName="email" type="Email" class="input-field" placeholder="Email"></ion-input>
+   <div *ngIf="speak_part.email.touched && speak_part.email.invalid" class="invalid-login">
+ <div *ngIf="speak_part.email.errors.required">Email is required *</div>
+ <div *ngIf="speak_part.email.errors.pattern">Email must be @homedepot.com *</div>
+</div>
+
+  <ion-input  type="password"  class="input-field" placeholder="Password"  formControlName="password"></ion-input>
+  <div *ngIf="speak_part.password.touched && speak_part.password.invalid" class="invalid-login">
+<div *ngIf="speak_part.password.errors.required">Password is required.</div>
+<div *ngIf="speak_part.password.errors.minlength">Password must be at least 6 characters</div>
+</div>
+
+  <ion-button [disabled]="!loginForm.valid" shape="round" class="ion-text-wrap button-rounded" (click)="login()">Sign In</ion-button>
+
+
+    </form>  
+  </ion-card>
+</ion-content>

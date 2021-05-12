@@ -1,0 +1,25 @@
+{
+    "logInfo":[],
+    "employeedetails":[
+        {"Name": "Riyas", "Designation": "Manager", "Email": "riyas@gmail.com", "Mobile": "8634323223"},
+        {"Name": "Gokula", "Designation": "Team Leader", "Email": "gokula@gmail.com", "Mobile": "8623458888"},
+        {"Name": "Ravi", "Designation": "Supervisor", "Email": "ravi@gmail.com", "Mobile": "9890909090"},
+        {"Name": "Kalai", "Designation": "Team Member", "Email": "kalai@gmail.com", "Mobile": "9890909090"},
+        {"Name": "Ramya", "Designation": "Team Member", "Email": "ramya@gmail.com", "Mobile": "9890909090"},
+        {"Name": "Devi", "Designation": "Team Member", "Email": "devi@gmail.com", "Mobile": "9890909090"},
+        {"Name": "Madhi", "Designation": "Team Member", "Email": "madhi@gmail.com", "Mobile": "9890909090"},
+        {"Name": "suganya", "Designation": "Team Member", "Email": "suganya@gmail.com", "Mobile": "9890909090"},
+        {"Name": "Meena", "Designation": "Team Member", "Email": "meena@gmail.com", "Mobile": "9890909090"},
+        {"Name": "Rakk", "Designation": "Team Member", "Email": "rakk@gmail.com", "Mobile": "9890909090"},
+        {"Name": "Ram", "Designation": "Team Member", "Email": "ram@gmail.com", "Mobile": "9890909090"},
+        {"Name": "Harish", "Designation": "Team Member", "Email": "harish@gmail.com", "Mobile": "9890909090"},
+        {"Name": "Vivek", "Designation": "Team Member", "Email": "vivek@gmail.com", "Mobile": "9890909090"},
+        {"Name": "Pradeep", "Designation": "Team Member", "Email": "pradeep@gmail.com", "Mobile": "9890909090"},
+        {"Name": "Ahamed", "Designation": "Team Member", "Email": "ahamed@gmail.com", "Mobile": "9890909090"},
+        {"Name": "Azar", "Designation": "Team Member", "Email": "azar@gmail.com", "Mobile": "9890909090"},
+        {"Name": "Kamalesh", "Designation": "Team Member", "Email": "kamalesh@gmail.com", "Mobile": "9890909090"},
+        {"Name": "Karthic", "Designation": "Team Member", "Email": "karthic@gmail.com", "Mobile": "9890909090"},
+        {"Name": "Mani", "Designation": "Team Member", "Email": "mani@gmail.com", "Mobile": "9890909090"},
+        {"Name": "Thiyanesh", "Designation": "Team Member", "Email": "thiyanesh@gmail.com", "Mobile": "9890909090"}
+    ]
+}

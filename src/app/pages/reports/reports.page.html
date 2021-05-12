@@ -1,0 +1,35 @@
+<ion-content>
+  <ion-grid class="headerclass">
+    <ion-row>
+      <ion-col>
+        <p class="title">Reports</p>
+      </ion-col>
+      <ion-col>
+        <ion-item class="ionitem">
+          <ion-select interface="popover" [(ngModel)]="reports" (ionChange)="clickRepot($event)"
+            class="reports-monthly">
+            <ion-select-option value="Monthly">Monthly</ion-select-option>
+            <ion-select-option value="Weekly">Weekly</ion-select-option>
+          </ion-select>
+          <button (click)="exportToExcel()" class="exportbtn">Export The Report</button>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-grid>
+    <ion-row style="width: 100%;
+    margin-top: 5px;">
+      <ion-col>
+        <ion-card class="card-chart">
+          <div class="chartjs-container chart-style">
+            <canvas baseChart [datasets]="lineChartData" [labels]="lineChartLabels" [colors]="lineChartColors"
+              [legend]="lineChartLegend" [chartType]="lineChartType" [plugins]="lineChartPlugins">
+            </canvas>
+          </div>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

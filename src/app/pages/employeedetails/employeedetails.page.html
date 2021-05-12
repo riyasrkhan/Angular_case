@@ -1,0 +1,26 @@
+<ion-header class="test">
+  <ion-toolbar>
+    <ion-title>Employee details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="tableclass">
+  <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover empdetails-table ">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Designation</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let emp of allempdetails">
+        <td>{{ emp.Name }}</td>
+        <td>{{ emp.Designation }}</td>
+        <td>{{ emp.Email }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</ion-content>
